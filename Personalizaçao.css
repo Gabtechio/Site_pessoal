@@ -1,0 +1,82 @@
+body{
+    
+    margin:0;
+    font-family:'Courier New', Courier, monospace;
+    background-image: url(https://media4.giphy.com/media/Fbox1ygIqnga5dLinz/giphy.webp?cid=790b761124dorayqc1j8zcjidtd9uwl2dcz506fwoakvai1p&ep=v1_gifs_search&rid=giphy.webp&ct=g);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    
+}
+
+.container {
+  margin-inline: auto;  
+  max-width: 760px;
+}
+.te{
+    text-align:left;
+}
+.menu{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 8px solid rgb(67, 4, 75);
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    margin: 10px;
+    margin-inline: auto;
+    
+}
+
+.flex{
+    display: flex;
+}
+.footer{
+    background-color: black;
+    border: 8px solid rgb(43, 3, 51);
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+.textcor{
+    color: rgb(179, 3, 3);
+    text-align:center;
+    font-size: 25px;
+}
+nav{
+    margin-inline: 17%;
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    background-color:rgb(43, 3, 51);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #383838;
+    margin-bottom: 5px;
+    margin-left: 10px;
+   flex: 1;
+  }
+
+.btn:hover {background-color: rgb(27, 173, 8)}
+
+.btn:active {
+  background-color: rgb(179, 3, 3);
+  box-shadow: 0 5px #383838;
+  transform: translateY(4px);
+}
+
+.borda{
+    border: 5px solid rgb(179, 3, 3);
+    border-radius: 300px;
+}
+
+.imagem{
+    margin-inline: auto;
+}
